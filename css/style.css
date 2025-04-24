@@ -1,4 +1,10 @@
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto;
     color: #434455;
@@ -11,6 +17,11 @@ a {
 
 ul {
     list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .second-title {
@@ -31,7 +42,8 @@ ul {
     font-size: 16px;
     line-height: 1.5;
 }
-/* /////////////////////headre ////////////////////////*/
+/* /////////////////////header
+ ////////////////////////*/
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -42,7 +54,7 @@ ul {
 .logo-decor {
     color: #4D5AE5;
 }
-.nav-item {
+.item-link {
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
